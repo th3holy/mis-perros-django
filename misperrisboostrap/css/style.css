@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#carouselExampleControls {
+    background-color: #5CCCAF
+}
+
+.BannerPerro {
+    background-color: #5CCCAF;
+}
+
+.info {
+    background-color: #5CCCAF;
+}
+
+.banner-info {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+}
+
+.redes-sociales img {
+    padding: 5px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 10px;
+}
+
+.datainfo .row {
+    display: flex;
+    justify-content: center;
+}
+
+.fotoperro {
+    max-width: 50%;
+    margin-bottom: 132px;
+}
+
+.crow {
+    max-width: 50%;
+}
+
+.footer {
+    background: #9b9b9b;
+    padding: 30px 0;
+    text-align: center;
+    font-family: calibri;
+}
+
+.galeria {
+    background-color: #5CCCAF;
+    padding: 15px;
+    display: flex;
+    justify-items: center;
+}
+
+.grid {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.grid li {
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.grid li:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.grid a {
+    color: #17f;
+    text-decoration: none;
+}
+
+.grid h3 {
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.grid img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.grid ul {
+    padding: 0;
+    margin: 0;
+}
+
+.grid ul li {
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-info h4,
+    h3 {
+        display: none;
+    }
+    .grid img {
+        width: 100px;
+        height: auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 432px) {
+    .logo {
+        width: 300px;
+    }
+    .grid img {
+        width: 100px;
+        height: auto;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 408px) {
+    .logo {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    .logo {
+        width: 200px;
+    }
+}
